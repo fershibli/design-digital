@@ -5,3 +5,12 @@
     --tema-cor4: #D9C6B0;
     --tema-cor5: #401F14;
 }
+
+img {
+    width: 160px;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+}
