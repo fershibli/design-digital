@@ -14,3 +14,7 @@ img {
     display: flex;
     flex-direction: row;
 }
+
+.full-width-between {
+    justify-content: space-between;
+}
