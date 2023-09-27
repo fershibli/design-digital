@@ -1,0 +1,68 @@
+:root {
+    --theme-background: #262526;
+    --theme-primary-button: #A65221;
+    --theme-secondary-button: #3772A6;
+    --theme-primary-text: #F2EEB6;
+    --theme-secondary-text: #A6A6A6;
+}
+
+html,
+body {
+    font-family: "Roboto Slab", Georgia, serif;
+    background-color: var(--theme-background);
+    color: var(--theme-secondary-text);
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--theme-primary-text);
+}
+
+a {
+    color: var(--theme-primary-button);
+    text-shadow: 0 0 1em var(--theme-secondary-button);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--theme-secondary-button);
+    text-shadow: 0 0 1em var(--theme-primary-button);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    padding: 0.25em;
+    background-color: var(--theme-primary-text);
+    color: var(--theme-background);
+    border-radius: 25em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+
+}
+
+nav ul li {
+    border-radius: 25em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.vr {
+    border-left: 1px solid var(--theme-background);
+}
