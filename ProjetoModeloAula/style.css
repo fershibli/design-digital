@@ -37,13 +37,6 @@ a:hover {
     text-decoration: none;
 }
 
-nav {
-    padding: 0.25em;
-    background-color: var(--theme-primary-text);
-    color: var(--theme-background);
-    border-radius: 25em;
-}
-
 nav ul {
     display: flex;
     flex-direction: row;
@@ -56,13 +49,23 @@ nav ul {
 }
 
 nav ul li {
-    border-radius: 25em;
     padding-top: 0.1em;
     padding-bottom: 0.1em;
     padding-left: 1em;
     padding-right: 1em;
 }
 
+.inner-content {
+    padding: 0.25em;
+    background-color: var(--theme-primary-text);
+    color: var(--theme-background);
+    border-radius: 25em;
+}
+
 .vr {
+    border-left: 1px solid var(--theme-primary-text);
+}
+
+.inner-content .vr {
     border-left: 1px solid var(--theme-background);
 }
