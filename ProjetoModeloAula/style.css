@@ -69,3 +69,12 @@ nav ul li {
 .inner-content .vr {
     border-left: 1px solid var(--theme-background);
 }
+
+.inner-content h1,
+.inner-content h2,
+.inner-content h3,
+.inner-content h4,
+.inner-content h5,
+.inner-content h6 {
+    color: var(--theme-primary-text);
+}
