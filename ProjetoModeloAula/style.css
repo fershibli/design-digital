@@ -56,7 +56,7 @@ nav ul li {
     padding: 0.25em;
     background-color: var(--theme-primary-text);
     color: var(--theme-background);
-    border-radius: 25em;
+    border-radius: 2em;
 }
 
 .vr {
