@@ -79,3 +79,10 @@ nav ul li {
 footer {
     margin-top: 2em;
 }
+
+video,
+audio,
+.embedded {
+    max-height: 50vh;
+    max-width: 90%;
+}
