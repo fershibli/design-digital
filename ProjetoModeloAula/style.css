@@ -86,3 +86,9 @@ audio,
     max-height: 50vh;
     max-width: 90%;
 }
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
