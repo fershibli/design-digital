@@ -53,7 +53,7 @@ nav ul li {
 }
 
 .inner-content {
-    padding: 0.25em;
+    padding: 1em;
     background-color: var(--theme-primary-text);
     color: var(--theme-background);
     border-radius: 2em;
@@ -91,4 +91,18 @@ audio,
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.full-content {
+    width: 45%;
+    padding: 1em;
+    margin: 1em;
+}
+
+.social {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
