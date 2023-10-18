@@ -1,0 +1,38 @@
+h2 {
+    color: navy;
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+    width: auto;
+    height: 150px;
+}
+
+section {
+    border: 1.5px solid forestgreen;
+    margin: 1px;
+}
+
+article {
+    border: 1.5px solid coral;
+    margin: 1px;
+}
+
+div {
+    border: 1.5px solid plum;
+    margin: 1px;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
