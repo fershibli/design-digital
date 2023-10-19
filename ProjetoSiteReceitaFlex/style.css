@@ -1,4 +1,4 @@
-header{
+header {
   width: 90%;
 }
 
@@ -10,9 +10,13 @@ header nav a {
 }
 
 
-img{
+img {
   width: 15%;
 }
 
+.container-receitas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-
+}
