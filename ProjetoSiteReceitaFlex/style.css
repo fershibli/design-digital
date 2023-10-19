@@ -11,12 +11,16 @@ header nav a {
 
 
 img {
-  width: 15%;
+  width: 15vw;
 }
 
 .container-receitas {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+}
 
+.card-receita {
+  display: flex;
+  flex-direction: column;
 }
